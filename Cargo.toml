@@ -14,17 +14,17 @@ bytes = "0.4"
 encoding_rs = "0.7"
 futures = "0.1.15"
 hyper = "0.11.22"
-hyper-tls = "0.1.2"
+hyper-tls = { git = "https://github.com/scottschroeder/hyper-tls", branch = "noverify" }
 libflate = "0.1.11"
 log = "0.4"
 mime_guess = "2.0.0-alpha.2"
-native-tls = "0.1.5"
+native-tls = { git = "https://github.com/scottschroeder/rust-native-tls", branch = "noverify" }
 serde = "1.0"
 serde_json = "1.0"
 serde_urlencoded = "0.5"
 tokio-core = "0.1.6"
 tokio-io = "0.1"
-tokio-tls = "0.1"
+tokio-tls = { git = "https://github.com/scottschroeder/tokio-tls", branch = "noverify" }
 url = "1.2"
 uuid = { version = "0.6", features = ["v4"] }
 
